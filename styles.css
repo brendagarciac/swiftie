@@ -1,0 +1,120 @@
+body {
+  text-align: center;
+  background-color: #542E71;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #FDCA40;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 20px;
+}
+
+h3{
+  font-size: 2rem;
+  color: #A799B7;
+  font-family: 'Dancing Script', cursive;
+}
+
+p{
+  margin-bottom: 0;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;;
+}
+
+.albums{
+  display: inline-grid;
+  padding-right: 3%;
+}
+/* Change the styling of each album title according to album aesthetic */
+
+.ts, .fr, .sn, .rt, .lv, .fk, .ev{
+  width: 200px;
+}
+
+.rd{
+  width: 80px;
+  margin: auto;
+}
+
+.nt{
+  width: 100px;
+  margin: auto;
+}
+
+/* Images inside each button */
+._1 {
+  background-image: url("covers/TaylorSwift.png");
+  background-size: cover;
+}
+
+._2 {
+  background-image: url("covers/Fearless.png");
+  background-size: cover;
+}
+
+._3 {
+  background-image: url("covers/SpeakNow.png");
+  background-size: cover;
+}
+
+._4 {
+  background-image: url("covers/Red.png");
+  background-size: cover;
+}
+
+._5 {
+  background-image: url("covers/1989.png");
+  background-size: cover;
+}
+
+._6 {
+  background-image: url("covers/Reputation.png");
+  background-size: cover;
+}
+
+._7 {
+  background-image: url("covers/Lover.png");
+  background-size: cover;
+}
+
+._8{
+  background-image: url("covers/Folklore.png");
+  background-size: cover;
+}
+
+._9{
+  background-image: url("covers/Evermore.png");
+  background-size: cover;
+}
+
+.set {
+  margin: 2% 10%;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.album {
+  outline: none;
+  border: 10px solid #A799B7;
+  font-size: 0px;
+  font-family: 'Merienda', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #542E71;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
